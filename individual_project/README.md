@@ -6,7 +6,7 @@ This repository contains my attempt to reproduce tables/figures from FiveThirtyE
 
 This project utilizes the R programming language. Package management is handled through CRAN and should work on various versions of R. For exact package versions used to build this reproduction, create a [Conda](https://quarto.org/docs/projects/virtual-environments.html#using-conda) environment using the provided `environment.yml` file:
 
-``` bash
+```{bash}
 conda env create -f environment.yml
 ```
 
@@ -35,7 +35,7 @@ wget -P data https://raw.githubusercontent.com/fivethirtyeight/data/master/hate-
 The schema and supporting sources are provided below:
 
 | Header                                     | Definition                                                                       |
-|---------------------|---------------------------------------------------|
+|--------------------------------------------|----------------------------------------------------------------------------------|
 | `state`                                    | State name                                                                       |
 | `median_household_income`                  | Median household income, 2016                                                    |
 | `share_unemployed_seasonal`                | Share of the population that is unemployed (seasonally adjusted), Sept. 2016     |
