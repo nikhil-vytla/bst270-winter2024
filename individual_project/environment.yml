@@ -1,0 +1,8 @@
+name: hc_270_indiv_project
+channels:
+ - conda-forge
+ - r
+dependencies:
+ - r-base=4.3.2
+ - r-ggplot2=3.4.4
+ - r-usmap=0.6.0
